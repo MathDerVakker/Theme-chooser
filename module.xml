@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <name>Theme Chooser</name>
+    <version>201</version>
+    <defaultcat>Account Information</defaultcat>
+    <desc>Enables users to set themes settings for them self.</desc>
+    <authorname>Auxio</authorname>
+    <authoremail>mail@auxio.eu</authoremail>
+    <authorurl>http://auxio.eu/</authorurl>
+    <updateurl></updateurl>
+</module>
