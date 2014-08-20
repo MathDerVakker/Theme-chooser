@@ -3,7 +3,6 @@
 * Version: 2.0.1
 * [Forums](#) for comments, discussion, more information and community support.
 
-
 ##Description
 
 Enables users to set themes settings for them self.
