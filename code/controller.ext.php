@@ -42,13 +42,14 @@ class module_controller {
      */
     static function ExecuteUpdateTheme($uid, $theme) {
         global $zdbh;
-		self::ExecuteUpdateCSS($uid, 'default');
         $sql = $zdbh->prepare("
-            UPDATE x_accounts
-            SET ac_usertheme_vc = :theme
-            WHERE ac_id_pk = :uid");
+        UPDATE x_accounts
+        SET ac_usertheme_vc = :theme
+        WHERE ac_reseller_fk = :uid
+        OR ac_id_pk = :uid2");
         $sql->bindParam(':theme', $theme);
         $sql->bindParam(':uid', $uid);
+        $sql->bindParam(':uid2', $uid);
         $sql->execute();
         return true;
     }
