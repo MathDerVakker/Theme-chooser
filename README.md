@@ -1,3 +1,6 @@
+Theme-chooser has been discontinued!!!
+=============
+
 #Theme-chooser
 
 * Version: 2.0.1
